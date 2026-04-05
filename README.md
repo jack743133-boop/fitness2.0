@@ -1,23 +1,31 @@
-# fitness2.0
-Stop guessing. Start knowing.
+# SmartCal
 
-Every day you say you want to change your body, your energy, your confidence… but you’re still tracking nothing. That’s the difference between wishing and actually transforming.
+SmartCal is a behavior-based calorie coach for beginners. It is intentionally not a macro-heavy tracker.
 
-This isn’t just another calorie tracker. This is your accountability partner. Your reality check. Your progress proof.
+## Why it is different
 
-You don’t need to be perfect.
-You just need to be consistent.
+- Goal-first coaching (fat loss, energy, muscle, maintenance)
+- Real-life meal input ("school lunch", "2 slices pizza")
+- Stress-free flexible mode with ranges and supportive nudges
+- One-click daily plan generator
+- Weekly momentum tracking without obsessive charts
 
-Log your food. See your habits. Fix what’s holding you back.
+## Tech
 
-Because once you see the truth, you can finally control it.
+- React + Vite + TypeScript
+- LocalStorage persistence for fast, no-login MVP behavior
+- Mobile-first, calm UI
+- SaaS-ready free vs plus structure
 
-No more “I think I ate healthy.”
-No more “I barely ate anything.”
+## Run locally
 
-Just real data. Real progress. Real results.
+```bash
+npm install
+npm run dev
+```
 
-The version of you that’s confident, lean, and disciplined?
-They track.
+## Build
 
-Start today.
+```bash
+npm run build
+```
